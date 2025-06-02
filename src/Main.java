@@ -13,6 +13,12 @@ public class Main {
        int product = a*b;
        System.out.println(product);
 
+       int quotient = a/b;
+       System.out.println(quotient);
+
+       int remainder = a%b;
+       System.out.println(remainder);
+
        a +=5; //a = a+5
        System.out.println(a);
 
