@@ -2,28 +2,20 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int number = 8 ;
+        String mood = "sleepy";
 
-        if(number > 0 ) {
-            System.out.println("number는 양수입니다.");
-        } else if(number < 0 ){
-            System.out.println("number는 음수입니다");
-        } else {
-            System.out.println("number는 0입니다.");
-        }
-
-        switch (number) {
-            case 7:
-                System.out.println(("number는 7."));
+        switch (mood) {
+            case "sleepy" :
+                System.out.println("졸리다~");
                 break;
-            case 8:
-                System.out.println("number는 8.");
+            case "happy" :
+                System.out.println("행복하다~");
                 break;
-            case 9:
-                System.out.println("number는 9.");
+            case "lucky" :
+                System.out.println("행운아다~");
                 break;
             default :
-                System.out.println("number는 숫자입니다.");
+                System.out.println("준비");
         }
     }
 }
