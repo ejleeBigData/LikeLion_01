@@ -19,9 +19,11 @@ public class Main {
             case 8:
                 System.out.println("number는 8.");
                 break;
+            case 9:
+                System.out.println("number는 9.");
+                break;
             default :
                 System.out.println("number는 숫자입니다.");
-                break;
         }
     }
 }
