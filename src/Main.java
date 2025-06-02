@@ -2,10 +2,14 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int number = 5 ;
+        int number = -1 ;
 
-        if(number >= 5 ) {
+        if(number > 0 ) {
             System.out.println("number는 0보다 크다");
+        } else if(number == 0 ){
+            System.out.println("number는 0 이다");
+        } else {
+            System.out.println("number는 0보다 작다");
         }
 
     }
