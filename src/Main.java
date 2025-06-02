@@ -12,5 +12,16 @@ public class Main {
             System.out.println("number는 0입니다.");
         }
 
+        switch (number) {
+            case 7:
+                System.out.println(("number는 7."));
+                break;
+            case 8:
+                System.out.println("number는 8.");
+                break;
+            default :
+                System.out.println("number는 숫자입니다.");
+                break;
+        }
     }
 }
